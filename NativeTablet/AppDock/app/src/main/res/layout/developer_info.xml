@@ -15,16 +15,17 @@
         android:weightSum="2">
 
         <ImageView
-            android:id="@+id/appLogo"
+            android:id="@+id/devLogo"
             android:layout_width="0dp"
             android:layout_height="150dp"
             android:layout_weight="1" />
 
         <ImageView
-            android:id="@+id/devLogo"
+            android:id="@+id/appLogo"
             android:layout_width="0dp"
             android:layout_height="150dp"
             android:layout_weight="1" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -35,24 +36,23 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/appTitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Title"
-            android:textAlignment="textStart"
-            android:textColor="@android:color/holo_orange_dark"
-            android:textSize="26sp"
-            android:textStyle="bold" />
-
-        <TextView
             android:id="@+id/developerNames"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Developers"
             android:textAlignment="textStart"
-            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textAlignment="textStart"
             android:textSize="19sp"
             android:textStyle="bold" />
+
 
         <ScrollView
             android:layout_width="match_parent"
